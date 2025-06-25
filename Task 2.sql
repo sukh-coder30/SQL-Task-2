@@ -67,3 +67,5 @@ WHERE course_id = 1001;
 
 select * from course;
 
+INSERT INTO students (student_id, first_name, email, gender, date_of_birth)
+VALUES (107, 'Riya', 'riya@gmail.com', 'Female', '2001-01-10');
